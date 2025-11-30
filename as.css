@@ -1,0 +1,89 @@
+.cuadrado {
+  width: 900px;
+  border-radius: 20px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.133);
+  padding: 20px;
+  background-color: blue;
+  margin: auto;
+  box-shadow: 0px 0px 44px 1px black;
+  box-sizing: border-box;
+  flex-direction: center;
+  justify-content: center;
+  font-weight: 100;
+}
+.drusk {
+  border-radius: 1000px;
+  width: 300px;
+  margin: auto;
+  box-shadow: 0px 0px 44px 1px black;
+  height: 300px;
+  background: url(https://i.scdn.co/image/ab6761610000e5eb5672887b223188b6f5ed426b)
+    center / cover;
+}
+.imagen {
+  width: 100%;
+  height: 900px;
+  margin: 0;
+  box-sizing: border-box;
+
+  padding-top: 170px;
+  background: url(https://images.unsplash.com/photo-1689308271305-58e75832289b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+    center / cover fixed;
+}
+.segundo {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  background-color: rgb(68, 127, 245);
+  padding: 20px;
+  margin-bottom: 200px;
+}
+.tercero {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(77, 68, 245);
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+.cuarto {
+  width: 100%;
+  height: 100%;
+  justify-content: left;
+  display: flex;
+  background-color: rgb(77, 68, 245);
+  margin: 10px;
+  padding: 20px 20px;
+  gap: 20px;
+}
+.quinto {
+  width: 50%;
+  flex-direction: column;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h1 {
+  font-weight: 900;
+  font-size: 42px;
+  text-shadow: 0 0 44px black;
+  color: white;
+  text-align: center;
+}
+h2 {
+  font-weight: 900;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: white;
+  text-align: center;
+}
+p {
+  font-weight: 900;
+  color: white;
+  text-align: center;
+}
+input {
+  width: 100%;
+  height: 30px;
+}
