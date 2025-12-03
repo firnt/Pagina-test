@@ -41,7 +41,7 @@
   margin-bottom: 200px;
 }
 .tercero {
-  width: 100%;
+  width: 50%;
   height: 100%;
   background-color: rgb(77, 68, 245);
   padding: 20px 20px;
@@ -86,4 +86,10 @@ p {
 input {
   width: 100%;
   height: 30px;
+}
+body {
+  background-color: rgb(47, 47, 47);
+}
+form {
+  width: 50%;
 }

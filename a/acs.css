@@ -1,0 +1,55 @@
+body {
+  padding: 40px;
+  background-color: #2c2c2c;
+}
+
+form {
+  background-color: #2c2c2c;
+  width: 50%;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  height: 400px;
+  box-shadow: 0 0 40px 0 #4a4a4a;
+  border-radius: 20px;
+  margin: auto;
+  padding: 30px;
+}
+h3 {
+  text-align: left;
+}
+.inputs {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+}
+.reinput {
+  width: 50%;
+}
+input {
+  background-color: black;
+  padding: 10px;
+  color: rgb(0, 255, 0);
+  border-radius: 12px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  font-size: 17px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.inputSSS {
+  background-color: black;
+  padding: 10px;
+  color: rgb(0, 255, 0);
+  border-radius: 12px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  font-size: 17px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 14px;
+}
+.nuevos {
+  font-size: 17px;
+  font-family: sans-serif;
+  text-align: left;
+  margin-top: 20px;
+}
