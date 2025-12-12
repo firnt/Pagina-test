@@ -7,21 +7,51 @@
   </head>
   <body>
     <style>
-      button {
-        border-radius: 100px;
-        margin: auto;
-        gap: 20px;
+      body {
+        background-color: rgb(54, 54, 54);
         display: flex;
+        justify-content: center;
+      }
+      button {
+        border-radius: 13px;
+        margin: 8px;
+        font-size: 23px;
+        margin-bottom: 20px;
+        
 
         background-color: orange;
-        padding: 10px;
+        padding: 15px;
+      }
+      button:hover{
+        opacity: 0.74;
+      }
+      .grid {
+        display: inline-flexbox;
+      }
+      .bolivia{
+        display: block;
+        
+        
       }
     </style>
     <script>
       let suma = 0;
     </script>
-    <button class="button" onclick="suma += 1" on>Sumador</button>
-
-    <button onclick="alert(suma)">Resultado final</button>
+    <div class="bolivia">
+        <div class="inpu">
+          <button class="button" onclick="suma += 1" on>1</button>
+          <button class="button" onclick="suma += 1" on>2</button>
+          <button class="button" onclick="suma += 1" on>3</button>
+        </div>
+        <div class="inpu">
+          <button class="button" onclick="suma += 1" on>4</button>
+          <button class="button" onclick="suma += 1" on>5</button>
+          <button class="button" onclick="suma += 1" on>${suma}</button>
+        </div>
+        <div style="display: flex;">
+          <button style="background-color: rgb(255, 255, 255);" onclick="alert(suma)">Resultado final</button>
+        </div>
+    <div>
+    
   </body>
 </html>
