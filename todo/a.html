@@ -14,6 +14,7 @@
       h1,
       h2,
       h4,
+      p,
       .yo,
       .His,
       .log {
@@ -22,28 +23,57 @@
         margin-top: 20px;
         color: white;
       }
-      .kil {
-        width: 100%;
+      .log {
         justify-content: center;
-        display: flex;
+        display: grid;
+        grid-template-columns: 200px 150px 100px;
+        gap: 20px;
+        background-color: rgba(115, 115, 115, 0.208);
+        border-radius: 14px;
+        width: fit-content;
+        margin: auto;
+        margin-top: 20px;
+      }
+      .kil {
+        display: grid;
+        grid-template-columns: 200px, 150px, 100px;
         gap: 20px;
       }
       button {
         border-radius: 5px;
         padding: 7px;
       }
+      .todolist {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 200px 150px 100px;
+        gap: 20px;
+        background-color: rgba(115, 115, 115, 0.208);
+        border-radius: 14px;
+        width: fit-content;
+        margin: auto;
+        margin-top: 20px;
+      }
+      
     </style>
     <h1>To do list</h1>
     <h4>Que tareas tenes para hoy</h2>
     <div style="display: flex; justify-content: center; gap: 8px">
-      <input type="text" placeholder="Hacer tarea" class="input" />
-      <button onclick="addtarea()">Add</button>
+      <form>
+        <input type="text" placeholder="Hacer tarea" class="input" />
+        <input type="date" class="date" required>
+        <button onclick="addtarea()">Add</button>
+      </form>
+      
     </div>
 
     <div class="log">
-      <p class="log">aa</p>
-      <p>12 de diciembre</p>
-      
+      <p class="">Tarea</p>
+      <p class="">Fecha</p>
+      <button>Finished</button>
+    </div>
+    <div class="ko">
+      <div class="todolist"></div>
     </div>
 
     <script src="script.js"></script>
